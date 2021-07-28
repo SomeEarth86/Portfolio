@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Playfair Display', serif;
+    margin: 0px;
 }
 
 hr {
@@ -118,4 +119,22 @@ hr {
 
 .ow{
     background-color: var(--off-white);
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: black;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
