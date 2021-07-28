@@ -1,42 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap');
 
-:root{
+:root {
     --primary-color: #6EE7B7;
 }
 
-body{
+body {
     font-family: 'Playfair Display', serif;
 }
 
-hr{
+hr {
     margin: 2rem 0rem;
 }
 
-.container{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
-.container-center{
+.container-center {
     max-width: 600px;
-    margin:auto;
+    margin: auto;
 }
 
 /* Links */
 
-.link{
+.link {
     text-decoration: none;
     padding: 0.5rem 1rem;
     font-weight: 900;
 }
 
-.link-primary{
+.link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: black;
 }
 
-.link-secondary{
+.link-secondary {
     color: black;
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color)
@@ -44,12 +44,37 @@ hr{
 
 /* Lists */
 
-.list-non-bullet{
+.list-non-bullet {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
+/* Navigation Section */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.navigation .link{
+    color: black;
+}
+
+.navigation .nav-pills{
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight:bolder;
+}
