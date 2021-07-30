@@ -83,13 +83,15 @@ hr {
 
 .navigation .link-active {
     font-weight: bolder;
+    text-decoration: underline;
 }
 
 
 /* Header */
 
-.header {
+.hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
