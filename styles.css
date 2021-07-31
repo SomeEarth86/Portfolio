@@ -24,6 +24,7 @@ hr {
 .container-center {
     max-width: 600px;
     margin: auto;
+    padding-bottom: 4rem;
 }
 
 /* Links */
@@ -154,3 +155,8 @@ hr {
     padding-top: 2rem;
     padding-bottom: 3rem;
 }
+
+.para{
+    font-size: larger;
+}
+
