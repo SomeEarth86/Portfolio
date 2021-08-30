@@ -33,11 +33,9 @@ hr {
     text-decoration: none;
     padding: 0.4rem;
     font-weight: 900;
-
 }
 
 .link-primary {
-
     max-width: 90px;
     padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
@@ -47,7 +45,7 @@ hr {
 }
 
 .link-secondary {
-
+    
     max-width: 90px;
     padding: 0.6rem 1.2rem;
     color: black;
@@ -84,7 +82,6 @@ hr {
 .navigation .link {
     color: black;
     margin-right: 3rem;
-    margin: auto;
 }
 
 .navigation .nav-pills {
@@ -173,3 +170,24 @@ hr {
     font-size: larger;
 }
 
+@media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+  
+    .list-item-inline {
+      display: inline;
+      padding: 0rem;
+    }
+  
+    .container-center {
+      width: auto;
+    }
+  
+    .link-primary {
+      display: block;
+    }
+
+  }
+  
