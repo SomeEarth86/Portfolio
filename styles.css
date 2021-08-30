@@ -31,22 +31,29 @@ hr {
 
 .link {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.4rem;
     font-weight: 900;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+
 }
 
 .link-primary {
+
+    max-width: 90px;
+    padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: black;
+    margin: 1rem auto;
 }
 
 .link-secondary {
+
+    max-width: 90px;
+    padding: 0.6rem 1.2rem;
     color: black;
     border-radius: 0.5rem;
-    border: 1px solid var(--dark-green)
+    border: 1px solid var(--dark-green);
+    margin: 1rem;
 }
 
 /* Lists */
