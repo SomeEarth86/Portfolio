@@ -22,7 +22,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
     padding-bottom: 4rem;
 }
@@ -33,6 +33,7 @@ hr {
     text-decoration: none;
     padding: 0.4rem;
     font-weight: 900;
+
 }
 
 .link-primary {
@@ -47,8 +48,8 @@ hr {
 .link-secondary {
     
     max-width: 90px;
-    padding: 0.6rem 1.2rem;
     color: black;
+    padding: 0.6rem 1.2rem;
     border-radius: 0.5rem;
     border: 1px solid var(--dark-green);
     margin: auto;
@@ -187,11 +188,12 @@ hr {
   
     .link-primary {
       display: block;
+      padding: 0.6rem 1.2rem;
     }
 
     .link-secondary{
         display: block;
-        padding: 0.5rem;
+        padding: 0.6rem 1.2rem;
     }
   }
   
