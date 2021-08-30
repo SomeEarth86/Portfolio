@@ -83,6 +83,8 @@ hr {
 
 .navigation .link {
     color: black;
+    margin-right: 3rem;
+    margin: auto;
 }
 
 .navigation .nav-pills {
