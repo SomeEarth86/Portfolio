@@ -51,7 +51,7 @@ hr {
     color: black;
     border-radius: 0.5rem;
     border: 1px solid var(--dark-green);
-    margin: 1rem;
+    margin: auto;
 }
 
 /* Lists */
@@ -189,5 +189,9 @@ hr {
       display: block;
     }
 
+    .link-secondary{
+        display: block;
+        padding: 0.5rem;
+    }
   }
   
