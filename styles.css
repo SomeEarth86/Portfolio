@@ -83,7 +83,7 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .navigation .link {
@@ -155,6 +155,7 @@ hr {
 
 .footer ul{
     padding-inline-start: 0px;
+    margin-top: 1rem;
 }
 
 .footer .footer-header{
