@@ -24,7 +24,7 @@ hr {
 .container-center {
     max-width: 700px;
     margin: auto;
-    padding-bottom: 4rem;
+
 }
 
 /* Links */
@@ -37,22 +37,29 @@ hr {
 }
 
 .link-primary {
-    max-width: 90px;
+    /* max-width: 90px;
     padding: 0.6rem 1.2rem;
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: black;
-    margin: 1rem auto;
+    margin: 1rem auto; */
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: black;
+    margin: 0.5rem 0.5rem;
 }
 
 .link-secondary {
-    
-    max-width: 90px;
+    color: black;
+    border: 1px solid  var(--primary-color);
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem;
+    /* max-width: 90px;
     color: black;
     padding: 0.6rem 1.2rem;
     border-radius: 0.5rem;
     border: 1px solid var(--dark-green);
-    margin: auto;
+    margin: auto; */
 }
 
 /* Lists */
@@ -173,8 +180,8 @@ hr {
 
 @media (max-width: 900px) {
     body {
-      max-width: 95%;
-      width: 100%;
+        margin: 0px auto;
+        width: 100%;
     }
   
     .list-item-inline {
@@ -182,18 +189,13 @@ hr {
       padding: 0rem;
     }
   
-    .container-center {
-      width: auto;
-    }
-  
-    .link-primary {
-      display: block;
-      padding: 0.6rem 1.2rem;
-    }
-
-    .link-secondary{
-        display: block;
-        padding: 0.6rem 1.2rem;
+    
+    .link-primary, .link-secondary{
+        display: flex;
+        flex-direction: column;
+        padding: 0.5rem 0.9rem;
+        width: 100px;
+        margin: 0.7rem auto;
     }
   }
   
